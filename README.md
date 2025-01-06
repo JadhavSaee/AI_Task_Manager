@@ -28,13 +28,13 @@ No backend server is required for this project. The tasks are stored in the brow
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/yourusername/ai-task-management-assistant.git
+    git clone https://github.com/JadhavSaee/AI_Task_Manager.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd ai-task-management-assistant
+    cd Ai_Task_Manager
     ```
 
 3. Open the `index.html` file in your browser. You can either:
@@ -44,9 +44,9 @@ No backend server is required for this project. The tasks are stored in the brow
 
 ### Local Storage
 - Tasks are saved in your browser's `localStorage`, so you can reload the page and still see your tasks.
-- If you want to clear the tasks, you can either:
+- If you want to clear the tasks, you can either :
   - Manually clear `localStorage` through the browser developer tools.
-  - Use the **Clear Tasks** button (if implemented in the app).
+  - Delate each task after completion.
 
 ## Usage
 
