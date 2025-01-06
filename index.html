@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Task Management Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>AI Task Management Assistant</h1>
+            <p>Streamline your workflow with AI-powered task organization and reminders!</p>
+        </header>
+
+        <section class="task-input">
+            <input type="text" id="taskInput" placeholder="Enter a task...">
+            <select id="taskPriority">
+                <option value="low">Low Priority</option>
+                <option value="medium">Medium Priority</option>
+                <option value="high">High Priority</option>
+            </select>
+            <button onclick="addTask()">Add Task</button>
+        </section>
+
+        <section class="filters">
+            <button onclick="filterTasks('all')">All Tasks</button>
+            <button onclick="filterTasks('completed')">Completed</button>
+            <button onclick="filterTasks('pending')">Pending</button>
+            <button onclick="sortTasks()">Sort by Priority</button>
+        </section>
+
+        <section class="task-list">
+            <ul id="taskList"></ul>
+        </section>
+
+        <section class="ai-suggestion" id="aiSuggestion">
+            <strong>AI Suggestion:</strong>
+            <p>Break down big tasks into smaller, actionable steps to improve productivity.</p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
